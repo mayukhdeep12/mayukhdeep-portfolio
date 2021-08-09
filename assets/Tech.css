@@ -1,0 +1,32 @@
+.tech {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background: #8B2AF3;
+    height: 300px;
+    align-items: center;
+    align-self: center;
+}
+
+.tech-1 {
+    display: grid;
+    justify-content: end;
+}
+
+.tech-1 ul li{
+    margin: 20px;
+}
+
+.tech-2 {
+    display: grid;
+    justify-content: center;
+}
+
+.tech-2 ul li {
+    margin: 20px;
+}
+
+
+.tech-3 ul li {
+    margin: 20px;
+
+}

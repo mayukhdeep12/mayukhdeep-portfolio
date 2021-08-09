@@ -1,0 +1,67 @@
+.about {
+    display: grid;
+    grid-template-columns: 15% 65% 20%;
+    margin-top: 200px;
+    margin-left: 60px;
+}
+
+.about .myname {
+    font-family: 'Poppins', sans-serif;
+    color: #8B2AF3;
+    font-family: 400;
+    letter-spacing: 2px;
+    margin-left: 2px;
+}
+
+.about .name {
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-size: 66px;
+    font-weight: 600;
+    margin-top: -1px;
+}
+
+.about .sub-head {
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: -35px;
+}
+
+.about .para {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    margin-top: 10px;
+    font-family: 400;
+    margin-left: 2px;
+    line-height: 1.5
+}
+
+.btn-2 {
+    border: 2px solid #8B2AF3;
+    background: none;
+    padding: 12px 22px;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    margin-top: 40px;
+    margin-left: -30px;
+    border-radius: 8px;
+    transition: .5s;
+    margin-left: 1px;
+}
+
+.btng {
+    color: #8B2AF3;
+}
+
+.btn-2:hover {
+    background: #8B2AF3;
+}
+
+.btng:hover {
+    color: white;
+}

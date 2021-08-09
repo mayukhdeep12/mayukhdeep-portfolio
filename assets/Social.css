@@ -1,0 +1,26 @@
+.social {
+    position: fixed;
+    top: 60%;
+}
+
+.social ul {
+    text-align: center;
+    margin-left: 20px;
+    font-size: 25px;
+}
+
+.social ul li {
+    margin: 15px 0px;
+    color: black;
+}
+
+.social ul li:hover {
+    color: #3498db;
+}
+
+.social ul .line {
+    border-left: 2px solid #3498db;
+    
+    height: 90px;
+    margin-left: 10px;
+}

@@ -1,0 +1,70 @@
+/*More Projects*/
+.mpro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mpro .mpro-head {
+    font-family: 'Poppins', sans-serif;
+    font-size:30px;
+    margin-top: 150px;
+    color: #8B2AF3;
+}
+
+.mpro-head::before {
+    content: '';
+    display: block;
+    width: 200px;
+    height: 1px;
+    left: 61vh;
+    background: #3498db;
+    position: absolute;
+    right: 0;
+    margin-top: 19px;
+}
+
+.mpro-head::after {
+    content: '';
+    display: block;
+    width: 200px;
+    height: 1px;
+    left: 121vh;
+    background: #3498db;
+    position: absolute;
+    right: 0;
+    margin-top: -15px;
+}
+
+/*Blocks*/
+
+.main-mp {
+    display: grid;
+    grid-template-columns: 10% 80% 10%;
+    margin-top: 50px;
+}
+
+.block-mp {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.block-mp1 {
+    background: white;
+    padding: 2em;
+    transition: .3s;
+    border-radius: 0px;
+}
+
+.block-mp1:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 0px 15px black;
+}
+
+.btn-lm {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
