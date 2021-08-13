@@ -12,15 +12,45 @@
 .social ul li {
     margin: 15px 0px;
     color: black;
+    transition: .3s;
+    cursor: pointer;
 }
 
 .social ul li:hover {
-    color: #3498db;
+    color: #8B2AF3;
 }
 
 .social ul .line {
-    border-left: 2px solid #3498db;
+    border-left: 2px solid black;
     
     height: 90px;
     margin-left: 10px;
+}
+
+.social-right {
+    position: fixed;
+    top: 55%;
+    left: 94%;
+    writing-mode: vertical-rl;
+    font-family: Roboto, sans-serif;
+}
+
+.social-right .text-so {
+    margin-left: -25px;
+    margin-top: -10px;
+    z-index: -10000000;
+    transition: .3s;
+    font-weight:600;
+    cursor: pointer;
+}
+
+.social-right .text-so:hover {
+    color: #8B2AF3;
+}
+
+.social-right .line1 {
+    border-left: 2px solid black;
+    height: 90px;
+    margin-top: 250px;
+    margin-left: 30px;
 }
