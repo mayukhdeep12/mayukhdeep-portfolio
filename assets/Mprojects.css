@@ -18,7 +18,7 @@
     width: 200px;
     height: 1px;
     left: 61vh;
-    background: #3498db;
+    background: black;
     position: absolute;
     right: 0;
     margin-top: 19px;
@@ -30,7 +30,7 @@
     width: 200px;
     height: 1px;
     left: 121vh;
-    background: #3498db;
+    background: black;
     position: absolute;
     right: 0;
     margin-top: -15px;
@@ -55,6 +55,7 @@
     padding: 2em;
     transition: .3s;
     border-radius: 0px;
+    font-family: roboto, sans-serif;
 }
 
 .block-mp1:hover {

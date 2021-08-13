@@ -91,8 +91,9 @@
 }
 
 .content-p .block1 > p {
-    text-align: right;
+    text-align: left;
     font-family: 'Roboto', sans-serif;
+    
 }
 
 .content-p .tech1 {
@@ -100,6 +101,8 @@
     align-items: right;
     justify-content: flex-end;
 }
+
+
 
 .content-p .p-icon {
     display: flex;
@@ -188,6 +191,10 @@
     margin-left: -50px;
 }
 
+.content-p2 .tech2 > img {
+    margin: 0 8px;
+}
+
 .content-p2 .p-icon2 {
     display: flex;
     align-items: left;
@@ -264,7 +271,8 @@
 }
 
 .content-p3 .block3 > p {
-    text-align: right;
+  
+    text-align: left;
     font-family: 'Roboto', sans-serif;
 }
 
