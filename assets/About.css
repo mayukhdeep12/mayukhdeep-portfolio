@@ -50,17 +50,34 @@
     color: black;
     font-family: 'Poppins', sans-serif;
     margin-left: -100px;
-    margin-top: -10px;
+    margin-top: 20px;
 }
 
 .p1 {
     line-height: 1.5;
     letter-spacing: 1px;
+    font-size: 18px;
 }
 
-.p2 {
-    line-height: 1.5;
-    letter-spacing: 1px;
+.p2 ul{
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    margin-left: -50px;
+}
+
+.p2 ul li {
+    margin: 0 20px;
+    transition: .3s;
+    
+}
+
+.p2 ul li a {
+    color: inherit;
+}
+
+.p2 ul li:hover {
+    color: #8B2AF3;
 }
 
 .skills {

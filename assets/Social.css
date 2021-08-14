@@ -16,6 +16,10 @@
     cursor: pointer;
 }
 
+.social ul li a {
+    color: inherit;
+}
+
 .social ul li:hover {
     color: #8B2AF3;
 }

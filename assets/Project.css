@@ -34,6 +34,7 @@
     grid-template-columns: 50% 30% 20%;
     margin-top: 80px;
     grid-auto-flow: dense;
+    cursor: pointer;
 }
 
 .img1-p {
@@ -77,6 +78,11 @@
     align-items: right;
     justify-content: flex-end;
     font-family: 'Spartan', sans-serif;
+    transition: .3s;
+}
+
+.content-p .p-name1:hover {
+    color: #8B2AF3;
 }
 
 .content-p .block1 {
@@ -122,6 +128,7 @@
     grid-template-columns: 20% 30% 50%;
     margin-top: 150px;
     grid-auto-flow: dense;
+    cursor: pointer;
 }
 
 .img1-p2 {
@@ -166,6 +173,11 @@
     justify-content: flex-start;
     margin-left: -50px;
     font-family: 'Spartan', sans-serif;
+    transition: .3s;
+}
+
+.content-p2 .p-name2:hover {
+    color: #8B2AF3;
 }
 
 .content-p2 .block2 {
@@ -215,6 +227,7 @@
     margin-top: 80px;
     margin-top: 150px;
     grid-auto-flow: dense;
+    cursor: pointer;
 }
 
 .img1-p3 {
@@ -257,6 +270,11 @@
     align-items: right;
     justify-content: flex-end;
     font-family: 'Spartan', sans-serif;
+    transition: .3s;
+}
+
+.content-p3 .p-name3:hover {
+    color: #8B2AF3;
 }
 
 .content-p3 .block3 {
