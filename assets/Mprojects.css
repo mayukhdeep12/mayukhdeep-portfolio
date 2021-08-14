@@ -61,6 +61,11 @@
 .block-mp1:hover {
     transform: translateY(-10px);
     box-shadow: 0px 0px 15px black;
+    
+}
+
+.block-mp1 h2 {
+    color: #8B2AF3;
 }
 
 .btn-lm {

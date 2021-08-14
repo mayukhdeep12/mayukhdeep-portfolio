@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <!--Javascript AOS-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <!--Css Files-->
     <link rel="stylesheet" href="./assets/navbar.css">
     <link rel="stylesheet" href="./assets/Home.css">
@@ -26,14 +29,14 @@
 <body>
 
     <!--Nav bar-->
-    <nav>
-        <div class="logo">
+    <nav >
+        <div class="logo" data-aos="fade-right">
             <img src="profile.jpg" alt="logo">
         </div>
         <div class="free-space">
 
         </div>
-        <div class="menu-tab">
+        <div class="menu-tab" data-aos="fade-in">
             
             <ul>
                 <li><a href="#">About</a></li>
@@ -45,7 +48,7 @@
             
             
         </div>
-        <div class="resume">
+        <div class="resume" data-aos="fade-left">
             <form action="https://drive.google.com/file/d/1vOMueMH9WJvHIIBypavULy0wt4wCcudm/view?usp=sharing" target="_blank">
                 <button class="btn btnr">Resume</button>
             </form>
@@ -53,28 +56,30 @@
     </nav>
 
     <!--Home-->
-    <div class="about">
+    <div class="about" >
         <div class="free-one"></div>
-        <div class="content-a">
+        <div class="content-a" data-aos="fade-up">
             <p class="myname">Hi, my name is</p>
             <h2 class="name">Mayukhdeep Mathur.</h2>
             <h2 class="sub-head">Innovating ideas and Building things for this Creative world.</h2>
-            <button class="btn-2 btng">Get In Touch</button>
+            <form action="mailto:mayukhdeep12mathur@gmail.com" target="_blank">
+                <button class="btn-2 btng">Get In Touch</button>
+            </form>
         </div>
         <div class="free-two"></div>
     </div>
 
     <!--About-->
-    <div class="about-head">
-        <h2 class="about-me">
+    <div class="about-head" >
+        <h2 class="about-me" data-aos="fade-up">
             About Me
         </h2>
     </div>
     <div class="about-sec">
-        <div class="left-p">
+        <div class="left-p" data-aos="fade-up">
             <img src="profile.jpg" alt="profile">
         </div>
-        <div class="right-p">
+        <div class="right-p" data-aos="fade-up">
             <p class="p1">
                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
             </p>
@@ -98,11 +103,11 @@
 
     <!--Tech-->
     <div class="tech-head">
-        <h2 class="tech-me">
+        <h2 class="tech-me" data-aos="slide-up">
             Teach i'm familier with
         </h2>
     </div>
-    <div class="tech">
+    <div class="tech" data-aos="slide-up">
         <div class="tech-1">
             <ul>
                 <li><img src="https://img.icons8.com/color/48/000000/python--v1.png"/><p>Python</p></li>
@@ -143,7 +148,7 @@
     
 
     <!--Social Icons-->
-    <div class="social">
+    <div class="social" data-aos="fade-right">
         <ul>
             <li><span class="iconify" data-icon="simple-icons:polywork"></span></li>
             <li><i class="fab fa-twitter"></i></li>
@@ -153,13 +158,13 @@
             <li class="line"></li>
         </ul>
     </div>
-    <div class="social-right">
-        <p class="text-so">mayukhdeep12mathur@gmail.com</p>
+    <div class="social-right" data-aos="fade-left">
+        <p class="text-so"><a href="mailto:mayukhdeep12mathur@gmail.com" target="_blank">mayukhdeep12mathur@gmail.com</a></p>
         <p class="line1"></p>
     </div>
 
     <!--Project Section-->
-    <div class="project-head">
+    <div class="project-head" data-aos="fade-up">
         <h2 class="project">
             Some Things I've Built
         </h2>
@@ -167,7 +172,7 @@
 
     <!--first project-->
     <div class="p-main">
-        <div class="project-main">
+        <div class="project-main" data-aos="fade-up">
             <div class="img1-p">
                 <img src="p1.jpg" alt="project image one">
             </div>
@@ -194,7 +199,7 @@
         </div>
 
         <!--Second project-->
-        <div class="project-main2">
+        <div class="project-main2" data-aos="fade-up">
             <div class="fs2">
             </div>
             <div class="content-p2">
@@ -223,7 +228,7 @@
         </div>
 
         <!--Third project-->
-        <div class="project-main3">
+        <div class="project-main3" data-aos="fade-up">
             <div class="img1-p3">
                 <img src="p3.jpg" alt="project image one">
             </div>
@@ -250,7 +255,7 @@
     </div>
 
     <!--More Projects-->
-    <div class="mpro">
+    <div class="mpro" data-aos="fade-up">
         <h2 class="mpro-head">
             More Projects
         </h2>
@@ -258,7 +263,7 @@
 
     <div class="main-mp">
         <div class="free-p1"></div>
-        <div class="block-mp">
+        <div class="block-mp" data-aos="fade-up" data->
             <div class="block-mp1">
                 <i class="fab fa-python"></i>
                 <h2>Krisent App</h2>
@@ -344,19 +349,31 @@
                 <p>Loved It</p>
             </label>
         </div>
+        <form action="mailto:mayukhdeep12mathur@gmail.com" target="_blank">
         <div class="btn-footer">
-            <button class="btn-f btn-c">
-                Get in touch
-            </button>
+            
+                <button class="btn-f btn-c">
+                    Get in touch
+                </button>
+            
         </div>
+        </form>
         <div class="footer-type">
             <p>Designed & Build by Mayukhdeep.</p>
-            <p>© ReadVel.com</p>
         </div>
     </footer>
 
     <!--javascrip-->
     <script type="text/javascript" src="./javascript/shrinknav.js"></script>
     <script src="https://code.iconify.design/2/2.0.3/iconify.min.js"></script>
+    <!--Javascript AOS-->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 800, 
+            easing: 'ease',
+           
+        });
+    </script>
 </body>
 </html>

@@ -72,7 +72,7 @@ nav.sticky {
 .menu-tab ul li a:after {
     content: '';
     position: absolute;
-    background-color: #3498db;
+    background-color: #8B2AF3;
     height: 3px;
     width: 0;
     left: 0;
@@ -81,7 +81,7 @@ nav.sticky {
 }
 
 .menu-tab ul li a:hover {
-    color:#3498db;
+    color:#8B2AF3;
 }
 
 .menu-tab ul li a:hover:after {
