@@ -123,6 +123,10 @@
     
 }
 
+.content-p .tech1 > img {
+    margin: 0 8px;
+}
+
 .content-p .p-icon ul {
     display: flex;
 }
@@ -194,6 +198,16 @@
 
 .content-p2 .p-name2:hover {
     color: #8B2AF3;
+}
+
+.content-p2 .p-name2 span {
+    background: #8B2AF3;
+    color: aliceblue;
+    font-size: 18px;
+    padding: 7px;
+    margin-left: 10px;
+    margin-top: -5px;
+    border-radius: 10px;
 }
 
 .content-p2 .block2 {

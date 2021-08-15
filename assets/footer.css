@@ -47,9 +47,15 @@ label > p {
 
 .btn-footer {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     margin-top: 10px;
+}
+
+.btn-footer h2 {
+    font-family: Robot,sans-serif;
+    margin-bottom: -10px;
 }
 
 .btn-footer > button{
