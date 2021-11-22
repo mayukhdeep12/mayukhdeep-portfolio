@@ -45,6 +45,12 @@
     font-family: Roboto, sans-serif;
 }
 
+@media screen and (max-width: 500px) {
+    .social-right {
+        display: none;
+    }
+}
+
 .social-right .text-so {
     margin-left: -25px;
     margin-top: -10px;

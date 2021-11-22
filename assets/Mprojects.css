@@ -20,11 +20,24 @@
     margin-top: 50px;
 }
 
+@media screen and (max-width: 500px) {
+    .main-mp {
+        grid-template-columns: 1fr;
+    }
+}
+
 .block-mp {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 20px;
 }
+
+@media screen and (max-width: 500px) {
+    .block-mp {
+        grid-template-columns: 1fr;
+    }
+}
+    
 
 .block-mp1 {
     background: white;
@@ -39,6 +52,12 @@
     transform: translateY(-10px);
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
     
+}
+
+@media screen and (max-width: 500px) {
+    .block-mp1 {
+        margin: 0px 40px;
+    }
 }
 
 .block-mp1 h2 {
