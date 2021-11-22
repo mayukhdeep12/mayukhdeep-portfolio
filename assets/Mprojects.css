@@ -12,31 +12,6 @@
     color: #8B2AF3;
 }
 
-
-.mpro-head::before {
-    content: '';
-    display: block;
-    width: 200px;
-    height: 1px;
-    left: 61vh;
-    background: black;
-    position: absolute;
-    right: 0;
-    margin-top: 19px;
-}
-
-.mpro-head::after {
-    content: '';
-    display: block;
-    width: 200px;
-    height: 1px;
-    left: 121vh;
-    background: black;
-    position: absolute;
-    right: 0;
-    margin-top: -15px;
-}
-
 /*Blocks*/
 
 .main-mp {

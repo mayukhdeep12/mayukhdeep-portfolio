@@ -3,6 +3,12 @@
     top: 55%;
 }
 
+@media screen and (max-width: 768px) {
+    .social {
+        display: none;
+    }
+}
+
 .social ul {
     text-align: center;
     margin-left: 20px;

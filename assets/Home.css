@@ -1,8 +1,8 @@
 .about {
     display: grid;
-    grid-template-columns: 15% 65% 20%;
-    margin-top: 200px;
-    margin-left: 60px;
+    grid-template-columns: 100%;
+    margin-top: 150px;
+    margin-left: 150px;
 }
 
 .about .myname {
@@ -65,3 +65,24 @@
 .btng:hover {
     color: white;
 }
+
+@media screen and (max-width: 500px) {
+    .about {
+        margin-top: 50px;
+        margin-left: 15px;
+    }
+    
+    .about .name {
+        font-size: 28px;
+    }
+
+    .about .sub-head {
+        font-size: 18px;
+        margin-top: -10px;
+        margin-right: 90px;
+    }
+    .btn-2 {
+        margin-top: 10px;
+    }
+}
+

@@ -16,16 +16,12 @@
     z-index: -1000;
 }
 
-.project::after {
-    content: '';
-    display: block;
-    width: 400px;
-    height: 1px;
-    left: 335px;
-    background: black;
-    position: absolute;
-    right: 0;
-    top: 50%;
+@media screen and (max-width: 500px) {
+    .project {
+        margin-top: 400px;
+        margin-left: -130px;
+        font-size: 25px;
+    }
 }
 
 /*Project one*/
@@ -39,7 +35,6 @@
 
 .img1-p {
     justify-self: end;
-    
 }
 
 .img1-p img {
@@ -134,6 +129,41 @@
 .content-p .p-icon ul li {
     margin-left: -35px;
     margin-top: -20px;
+}
+
+@media screen and (max-width: 500px) {
+    .project-main {
+        grid-template-columns: 1fr;
+        margin-top: 80px;
+    }
+    .img1-p {
+        justify-self: center;
+        margin-top: -50px;
+    }
+    .img1-p img {
+        height: 200px;
+        width: 200px;
+    }
+
+    .content-p .f1{
+        margin-top: 10px;
+        margin-right: 120px;
+    }
+
+    .p-name1 {
+        margin-top: -10px;
+        margin-right: 80px;
+        font-size:20px;
+    }
+
+    .block1 {
+        margin-top: 20px;
+        margin-right: 40px;
+    }
+
+    .para-p1 {
+        margin-left: 70px;
+    }
 }
 
 /*project two*/

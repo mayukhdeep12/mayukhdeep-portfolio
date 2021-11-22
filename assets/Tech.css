@@ -15,16 +15,14 @@
     margin-left: -50px;
 }
 
-.tech-me::after {
-    content: '';
-    display: block;
-    width: 400px;
-    height: 1px;
-    left: 330px;
-    background: black;
-    position: absolute;
-    right: 0;
-    top: 50%;
+@media screen and (max-width: 768px) {
+    .tech-head {
+        
+    }
+    .tech-me {
+        font-size: 25px;
+        margin-left: -200px;
+    }
 }
 
 .tech {
@@ -35,6 +33,13 @@
     align-self: center;
     font-family: Roboto,sans-serif;
 }
+
+@media screen and (max-width: 500px) {
+    .tech {
+        grid-template-columns: 50% 50%;
+    }
+}
+    
 
 .tech-1 {
     display: grid;
@@ -51,6 +56,26 @@
     margin-top: -37px;
     margin-left: 60px;
     font-size: 18px;
+}
+
+@media screen and (max-width: 500px) {
+    .tech-1 ul li {
+        margin-left: -50px;
+        margin-top: 0px;
+    }
+
+    .tech-1 ul li img {
+        height: 30px;
+        margin-left: 20px;
+    }
+
+    .tech-1 ul li > p {
+        margin-left: 0px;
+        margin-top: -5px;
+        font-size: 15px;
+        text-align: center;
+    }
+    
 }
 
 .tech-2 {
@@ -70,6 +95,26 @@
     font-size: 18px;
 }
 
+@media screen and (max-width: 500px) {
+    .tech-2 ul li {
+        margin-left: -50px;
+        margin-top: 0px;
+    }
+
+    .tech-2 ul li img {
+        height: 30px;
+        margin-left: 44px;
+    }
+
+    .tech-2 ul li > p {
+        margin-left: 0px;
+        margin-top: -5px;
+        font-size: 15px;
+        text-align: center;
+    }
+    
+}   
+
 .tech-3 {
     display: grid;
     justify-content: start;
@@ -85,6 +130,26 @@
     margin-top: -37px;
     margin-left: 60px;
     font-size: 18px;
+}
+
+@media screen and (max-width: 500px) {
+    .tech-3 ul li {
+        margin-left: 1px;
+        margin-top: 0px;
+    }
+
+    .tech-3 ul li img {
+        height: 30px;
+        margin-left: 20px;
+    }
+
+    .tech-3 ul li > p {
+        margin-left: 0px;
+        margin-top: -5px;
+        font-size: 15px;
+        text-align: center;
+    }
+    
 }
 
 .tech-4 {
@@ -103,3 +168,23 @@
     margin-left: 60px;
     font-size: 18px;
 }
+
+@media screen and (max-width: 500px) {
+    .tech-4 ul li {
+        margin-left: -50px;
+        margin-top: 0px;
+    }
+
+    .tech-4 ul li img {
+        height: 30px;
+        margin-left: 44px;
+    }
+
+    .tech-4 ul li > p {
+        margin-left: 0px;
+        margin-top: -5px;
+        font-size: 15px;
+        text-align: center;
+    }
+    
+}   

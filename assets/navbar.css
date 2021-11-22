@@ -10,24 +10,11 @@ body {
 
 nav {
     display: grid;
-    grid-template-columns: 10% 45% 35% 10%;
-    position: fixed;
+    grid-template-columns: 50% 50%;
     top: 0;
     width: 100%;
     transition: .7s;
     z-index: 10;
-}
-
-nav.sticky {
-    margin-top: -15px;
-    padding: -5px;
-    background: #fff;
-    box-shadow: 0px 0px 13px 0px rgba(0,0,0,0.75);
-    height: 100px;
-    transition: .7s;
-}
-
-.logo {
 }
 
 .logo > img{
@@ -38,55 +25,21 @@ nav.sticky {
     border-radius: 50%;
 }
 
-
-.free-space {
-    content: '';
-   
+.resume {
+    justify-self: end;
+    margin-right: 5em;
 }
 
-.menu-tab {
+@media screen and (max-width: 500px) {
+    nav {
+        grid-template-columns: 50% 50%;
+    }
+    .resume {
+        justify-self: end;
+        margin-right: 6em;
+    }
 }
-
-
-.menu-tab ul{
-    display: flex;
-    padding: 2em;
-}
-
-
-.menu-tab ul li {
-    display: inline-block;
-}
-
-.menu-tab ul li a{
-    position: relative;
-    text-decoration: none;
-    margin: 0 22px;
-    font-family: 'Poppins', sans-serif;
-    color: black;
-    font-size: 18px;
-    letter-spacing: .5px;
-    padding: 0 5px;
-}
-
-.menu-tab ul li a:after {
-    content: '';
-    position: absolute;
-    background-color: #8B2AF3;
-    height: 3px;
-    width: 0;
-    left: 0;
-    bottom: -10px;
-    transition: .3s;
-}
-
-.menu-tab ul li a:hover {
-    color:#8B2AF3;
-}
-
-.menu-tab ul li a:hover:after {
-    width:100%;
-}
+    
 
 .btn {
     border: 2px solid #8B2AF3;
@@ -96,7 +49,7 @@ nav.sticky {
     font-family: 'Poppins', sans-serif;
     cursor: pointer;
     margin-top: 34px;
-    margin-left: -30px;
+    margin-left: -100px;
     border-radius: 8px;
     transition: .5s;
 }

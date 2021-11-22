@@ -15,18 +15,6 @@
     z-index: -1000;
 }
 
-.ui-project::after {
-    content: '';
-    display: block;
-    width: 400px;
-    height: 1px;
-    left: 345px;
-    background: black;
-    position: absolute;
-    right: 0;
-    top: 50%;
-}
-
 .ui-sq {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
