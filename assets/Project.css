@@ -8,7 +8,7 @@
 
 .project {
     font-family: 'Poppins', sans-serif;
-    color: #8B2AF3;
+    color: #2AAACB;
     position: relative;
     margin-left: 100px;
     margin-top: 120px;
@@ -79,15 +79,16 @@
     justify-content: flex-end;
     font-family: 'Spartan', sans-serif;
     transition: .3s;
+    color: #fff;
 }
 
 .content-p .p-name1:hover {
-    color: #8B2AF3;
+    color: #2AAACB;
 }
 
 .content-p .block1 {
-    background-color: white;
-    color: black;
+    background-color: #191C29;
+    color: #fff;
     box-shadow: 0px 0px 15px black;
     padding-left: 25px;
     padding-top: 8px;
@@ -120,6 +121,7 @@
 
 .content-p .tech1 > img {
     margin: 0 8px;
+    
 }
 
 .content-p .p-icon ul {
@@ -129,6 +131,7 @@
 .content-p .p-icon ul li {
     margin-left: -35px;
     margin-top: -20px;
+    color: #fff;
 }
 
 @media screen and (max-width: 500px) {
@@ -143,14 +146,19 @@
     .img1-p img {
         height: 200px;
         width: 200px;
+        
+    }
+
+    .contetn-p {
+        justify-self: center;
     }
 
     .content-p .f1{
         margin-top: 10px;
-        margin-right: 120px;
+        justify-content: center;
     }
 
-    .p-name1 {
+    .content-p .p-name1{
         margin-top: -10px;
         margin-right: 80px;
         font-size:20px;
@@ -170,7 +178,7 @@
     }
 
     .p-icon {
-        margin-right: 160px;
+        margin-right: 170px;
     }
 
     .p-icon img {
@@ -227,6 +235,7 @@
 .content-p2 a {
     color: inherit;
     text-decoration: none;
+    color: #fff;
 }
 
 .content-p2 .p-name2 {
@@ -239,11 +248,11 @@
 }
 
 .content-p2 .p-name2:hover {
-    color: #8B2AF3;
+    color: #3498db;
 }
 
 .content-p2 .p-name2 span {
-    background: #8B2AF3;
+    background: #3498db;
     color: aliceblue;
     font-size: 18px;
     padding: 7px;
@@ -253,8 +262,8 @@
 }
 
 .content-p2 .block2 {
-    background-color: white;
-    color: black;
+    background-color: #191C29;
+    color: #fff;
     box-shadow: 0px 0px 15px black;
     padding-left: 25px;
     padding-top: 8px;
@@ -307,8 +316,7 @@
         margin-top: -50px;
     }
     .img1-p2 img {
-        height: 200px;
-        width: 200px;
+        display: none;
     }
 
     .content-p2 .f2{
@@ -316,10 +324,10 @@
         justify-content: center;
     }
 
-    .p-name2{
+    .content-p2 .p-name2{
         margin-top: -10px;
-        font-size:14px;
-        margin-left: 200px;
+        font-size:20px;
+        justify-content: center;
 
     }
 
@@ -332,16 +340,14 @@
         margin-left: 70px;
     }
 
-    .tech2 {
-        margin-right: 70px;
-    }
-
-    .p-icon2 {
-        margin-right: 160px;
+    .content-p2 .tech2 {
+        
+        margin: 15px 50px;
     }
 
     .p-icon2 img {
         height: 50px;
+        margin-left: 200px;
     }
 }
 
@@ -393,6 +399,7 @@
 .content-p3 a {
     color: inherit;
     text-decoration: none;
+    color: #fff;
 }
 
 .content-p3 .p-name3 {
@@ -404,12 +411,12 @@
 }
 
 .content-p3 .p-name3:hover {
-    color: #8B2AF3;
+    color: #3498DB;
 }
 
 .content-p3 .block3 {
-    background-color: white;
-    color: black;
+    background-color: #191C29;
+    color: #fff;
     box-shadow: 0px 0px 15px black;
     padding-left: 25px;
     padding-top: 8px;

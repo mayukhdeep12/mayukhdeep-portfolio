@@ -9,7 +9,7 @@
     font-family: 'Poppins', sans-serif;
     font-size:30px;
     margin-top: 150px;
-    color: #8B2AF3;
+    color: #3498DB;
 }
 
 /*Blocks*/
@@ -40,7 +40,8 @@
     
 
 .block-mp1 {
-    background: white;
+    background: #191C29;
+    color: #fff;
     padding: 2em;
     transition: .3s;
     border-radius: 0px;
@@ -61,12 +62,12 @@
 }
 
 .block-mp1 h2 {
-    color: black;
+    color: #fff;
     transition: .3s;
 }
 
 .block-mp1 h2:hover {
-    color: #8B2AF3;
+    color: #3498DB;
 }
 
 .block-mp1 a {
@@ -75,7 +76,7 @@
 }
 
 .block-mp1 span {
-    background-color: #8B2AF3;
+    background-color: #3498DB;
     font-size: 15px;
     padding: 5px;
     border-radius: 10px;

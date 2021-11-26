@@ -17,7 +17,7 @@
 
 .social ul li {
     margin: 15px 0px;
-    color: black;
+    color: #fff;
     transition: .3s;
     cursor: pointer;
 }
@@ -27,11 +27,11 @@
 }
 
 .social ul li:hover {
-    color: #8B2AF3;
+    color: #2BB8DB;
 }
 
 .social ul .line {
-    border-left: 2px solid black;
+    border-left: 2px solid #2BB8DB;
     
     height: 90px;
     margin-left: 10px;
@@ -58,10 +58,11 @@
     transition: .3s;
     font-weight:600;
     cursor: pointer;
+    color: #fff;
 }
 
 .social-right .text-so:hover {
-    color: #8B2AF3;
+    color: #2BB8DB;
 }
 
 .social-right .text-so > a {
@@ -70,7 +71,7 @@
 }
 
 .social-right .line1 {
-    border-left: 2px solid black;
+    border-left: 2px solid #2BB8DB;
     height: 90px;
     margin-top: 250px;
     margin-left: 30px;
